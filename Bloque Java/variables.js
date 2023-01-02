@@ -1,7 +1,4 @@
-var nombre = "Magg";
+let length = 16 ;                               //Numero
+let apellido = "Johnson";                       //String - Cadena
+let x = {firstName:"John", lastName:"Doe"}      //Objecto 
 
-console.log("Nombre vale: "+nombre);
-
-nombre = 33;
-
-console.log("Nombre vale: " +nombre)
