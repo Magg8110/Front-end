@@ -1,10 +1,15 @@
+/**
+Esto es un comentario
+*/
+
+
 *{
     color: aquamarine;
 }
 
 p {
     color:red;
-    width: 300px;
+    width: 300px; 
 }
 
 #abc {
@@ -13,11 +18,11 @@ p {
 
 h1 {
 
-    font-family: 'Prosto One', cursive;
+    font-family: 'Prosto One', cursive; /**fuente */
 
-    border: 5px solid blueviolet;
-    font-weight: bold;
-    color: grey;
+    border: 5px solid blueviolet; /**borde, ancho y color*/
+    font-weight: bold;            /**ancho letra*/
+    color: grey;            /**letra color*/
 
     margin-top: 10px;
     margin-right: 20px;
@@ -29,11 +34,9 @@ h1 {
 }
 
 body {
-    background-color:  lavender;
+    background-color:  lavender; /**fondo*/
 }
-/**
-Esto es un comentario
-*/
+
 
 
 section {
