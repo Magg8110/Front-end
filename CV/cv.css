@@ -1,17 +1,41 @@
 .circular--square {
     border-radius: 50%;
+   
   }
+
+ 
 
   #grid {
     display: grid;
     width: 100%;
     grid-template-columns: 30% 1fr;
+    margin-top: 30px; /** arreglar*/
   }
   
   #areaA {
     background-color:lightcoral;
+    color: rgb(62, 50, 50);
   }
   
   #areaB {
-    background-color: rosybrown;
+    background-color: rgb(62, 50, 50);
+    color: rosybrown
   }
+
+  #final {
+    background-color: bisque;
+    font-size:xx-large;
+    font-weight: bold;
+
+
+  }
+
+#idioma {
+  text-align: right;
+  margin-right: 40%;
+}
+  
+
+
+
+ 
