@@ -1,34 +1,45 @@
 .circular--square {
     border-radius: 50%;
-   
   }
 
- 
 
-  #grid {
+ #grid {
     display: grid;
     width: 100%;
     grid-template-columns: 30% 1fr;
-    margin-top: 30px; /** arreglar*/
+    margin-top: 30px; 
+
   }
   
   #areaA {
     background-color:lightcoral;
     color: rgb(62, 50, 50);
+
   }
   
   #areaB {
     background-color: rgb(62, 50, 50);
-    color: rosybrown
-  }
+    color: rosybrown;
 
-  #final {
+  } 
+
+  #footer, h1 {
     background-color: bisque;
     font-size:xx-large;
     font-weight: bold;
-
-
+    padding: 15px;
+    text-align: center;
   }
+  
+  h2 {
+    
+  }
+
+  p {
+    font-style: italic;
+  }
+
+
 
 #idioma {
   text-align: right;
@@ -50,3 +61,8 @@ margin-right: 40%;
  text-align: left;
  margin-left: 20%;
 }
+
+
+
+
+  
