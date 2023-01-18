@@ -1,3 +1,10 @@
+
+*{
+  font-family: 'Averia Serif Libre';
+  
+
+}
+
 .circular--square {
     border-radius: 50%;
   }
@@ -6,25 +13,30 @@
  #grid {
     display: grid;
     width: 100%;
-    grid-template-columns: 30% 1fr;
-    margin-top: 30px; 
+    grid-template-columns: 35% 1fr;
+    
 
   }
   
   #areaA {
-    background-color:lightcoral;
-    color: rgb(62, 50, 50);
+    background-color:lightpink;
+    color: rgb(52, 53, 53);
+    padding: 10%;
 
   }
   
   #areaB {
-    background-color: rgb(62, 50, 50);
-    color: rosybrown;
-
+    background-color:plum;
+    color: rgb(52, 53, 53);
+    padding: 10px;
+   
+   
+  
   } 
 
-  #footer, h1 {
-    background-color: bisque;
+  #footer {
+    background-color:rgb(160, 204, 232);
+    color: rgb(52, 53, 53);
     font-size:xx-large;
     font-weight: bold;
     padding: 15px;
@@ -48,19 +60,89 @@
 #datos {
   font-size:large;
   font-weight: lighter;
+  font-family: 'Averia Serif Libre';
+
 }
 
-#soft{
-text-align: right;
-margin-right: 40%;
-}
+
 
 #table{
- text-align: left;
+ text-align: center;
  margin-left: 20%;
 }
 
+#soft{
+  text-align: right;
+
+  }
+h1, h2, h3, #footer{
+
+  font-family: 'Averia Serif Libre';
+}
 
 
 
+
+#RedesS{
   
+ text-align: left;
+ 
+ margin-left: 30%;
+
+}  
+
+.fa-linkedin {
+  color: #0072b1;
+}
+
+.fa-telegram {
+  color: #0088cc;
+}
+
+.fa-youtube {
+ color: #c4302b;
+}
+
+.fa-pinterest {
+  color: #c8232c;
+}
+
+.fa-goodreads-g {
+  color: #553b08;
+}
+
+.fa-twitch {
+  color: #6441a5;
+}
+
+
+.fa-palette {
+  font-size: 50px;
+}
+
+.fa-bezier-curve {
+  font-size: 50px;
+}
+
+.fa-camera-retro {
+  font-size: 50px;
+}
+
+.fa-film {
+  font-size: 50px;
+}
+
+.fa-book{
+  font-size: 50px;
+}
+
+.fa-square-js {
+  font-size: 50px;
+}
+
+
+
+
+.center {
+align-items: center;
+}
