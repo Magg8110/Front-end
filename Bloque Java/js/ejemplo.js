@@ -1,3 +1,4 @@
+
 document.getElementById('boton').onclick = function() { //click en el boton
     console.log("Capturamos el evento click"); //comentario consola despues de click
     document.getElementById("demo").innerHTML = "Estamos probando nuestro primer evento en js"; // modifica texto inicial
