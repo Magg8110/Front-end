@@ -6,6 +6,7 @@
 
 .circular--square {
     border-radius: 50%;
+    border: 5px solid rgba(216, 112, 147, 0.275);
   }
 
 
@@ -79,21 +80,24 @@
 #soft{
   text-align: right;
   margin-right: 8%;
-  font-size: large;
+  font-size: 20px;
   padding: 10px;
   
   }
 
 #exp{
   margin-left: 5%;
-  font-size: large;
+  font-size: 20px;
   padding: 10px;
 }
 
 #form{
-  font-size: large;
+  font-size: 20px;
   padding: 10px;
+  
 }
+
+
 
 h1, h3, #footer{
 
@@ -107,32 +111,40 @@ table.center {
 
 
 #RedesS{ 
- text-align: left;
- margin-left: 30%;
+  text-align: left;
+  align-content: center;
+  
+  
 }  
 
 .fa-linkedin {
   color: #0072b1;
+  font-size: xx-large;
 }
 
 .fa-telegram {
   color: #0088cc;
+  font-size: xx-large;
 }
 
 .fa-youtube {
  color: #c4302b;
+ font-size: xx-large;
 }
 
 .fa-pinterest {
   color: #c8232c;
+  font-size: xx-large;
 }
 
 .fa-goodreads-g {
   color: #553b08;
+  font-size: xx-large;
 }
 
 .fa-twitch {
   color: #6441a5;
+  font-size: xx-large;
 }
 
 
@@ -252,7 +264,7 @@ opacity: 0.8;
 .tab {
   overflow: hidden; 
   background-color: rgb(255, 253, 150);
-  
+  border-radius: 15px;
 }
 
 .tab button {
@@ -267,6 +279,7 @@ opacity: 0.8;
   font-size: x-large;
   font-weight: bold;
   color: rgba(52, 53, 53, 0.885);
+  border-radius: 15px;
 }
 
 .tab button:hover {
@@ -296,3 +309,6 @@ margin-top: 20px;
 margin-bottom: 20px;
 }
 
+th{
+font-weight: lighter;
+}
