@@ -29,6 +29,7 @@
 <body>
 
 
+  <div id="main">
      <div class="p-0"> 
 
        <div id="grid">
@@ -392,12 +393,6 @@
 
        
 
-              
-
-            
-
-                
-                
                 
             </div>
 
@@ -426,6 +421,57 @@
    <i class="fa-solid fa-location-dot"></i>
    Valwood Pkwy, 8929, Michigan <br>
  </div>
+ <span style="font: size 14px;cursor:pointer;text-align: center;" onclick="openNav()"><h5>Formulario de contacto</h5></span>
+</div>
+
+
+
+ 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <a href="#"><h4>Formulario de contacto</h4>
+
+<div class="formulario">
+  <form action="" metod="">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..">
+
+    <label for="apellido">Apellido</label>
+    <input type="text" id="apellido" name="apellido" placeholder="Tu apellido..">
+    
+    <label for="empresa">Empresa</label>
+    <input type="text" id="empresa" name="empresa" placeholder="Tu empresa..">
+    
+    <label for="correo">Correo Electrónico</label>
+    <input type="text" id="correo" name="correo" placeholder="Tu correo electrónico..">
+
+    <label for="motivo">Motivo</label>
+    <select id="motivo" name="motivo">
+      <option value="consultaI">Consulta sobre Idiomas</option>
+      <option value="consultaH">Consulta sobre Habilidades</option>
+      <option value="consultaS">Consulta sobre Software</option>
+ 	    <option value="consultaE">Consulta sobre Experiencia</option>
+      <option value="consultaF">Consulta sobre Formación</option>
+      <option value="contrataciones">Contrataciones</option>
+      <option value="presupuestos">Presupuestos</option>
+      <option value="referencias">Referencias</option>
+      <option value="otro">Otro</option>
+    </select>
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje.." style="height:200px"></textarea>
+
+    <input type="Submit" value="Enviar">
+  </form>
+</div>
+</a>
+</div>
+
+
+
+
+
 </div>
 
     
