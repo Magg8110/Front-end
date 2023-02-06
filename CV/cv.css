@@ -344,7 +344,7 @@ font-weight: lighter;
 .sidenav a {
   padding: 5px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: large;
   color: rgb(52, 53, 53);
   display: block;
   transition: 0.3s;
@@ -411,8 +411,8 @@ input[type=submit]:hover {
 
 
 
-#nombre, #apellido, #empresa, #correo, #motivo, #referencia, #mensaje{
-  font-size: medium;
+#nombre, #apellido, #correo, #motivo, #referencia, #mensaje{
+font-size: medium;
  padding: 5px;
  margin-bottom: 20px;
  
